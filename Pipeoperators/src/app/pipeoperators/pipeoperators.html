@@ -1,0 +1,18 @@
+<h2>Angular Demo : Pipe Operators</h2>
+
+<p>Original:{{ name }}</p>
+<p>Date(Default): {{ today }}</p>
+<p>Currency (INR) : {{ amount }}</p>
+<hr />
+<p>Uppercase: {{ name | uppercase }}</p>
+<p>Lowercase:{{ name | lowercase }}</p>
+<p>Date(Default):{{ today | date }}</p>
+<p>Datetime:{{ today | date : "HH:mm:ss" }}</p>
+
+<p>Date (DD/MM/YYYY):{{ today | date : "dd/MM/yyyy" }}</p>
+<p>Currency(INR):{{ amount | currency : "INR" }}</p>
+<p>Currency(USD):{{ amount | currency : "USD" }}</p>
+<pre>{{ userdata | json }}</pre>
+<hr />
+
+<p>Custom Capitalize:{{ Customname | custompipe }}</p>
