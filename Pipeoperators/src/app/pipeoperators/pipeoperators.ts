@@ -12,8 +12,10 @@ import { CustompipePipe } from '../custompipe-pipe';
 })
 export class Pipeoperators {
   name = 'Abhijeet Mulik';
+  MyFriendName = 'Sangram Jadhav';
 
   today = new Date();
+  date = new Date();
   amount = 999.99;
 
   Customname = 'abhijeet MULIK';

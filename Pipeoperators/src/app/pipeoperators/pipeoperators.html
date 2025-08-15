@@ -12,7 +12,23 @@
 <p>Date (DD/MM/YYYY):{{ today | date : "dd/MM/yyyy" }}</p>
 <p>Currency(INR):{{ amount | currency : "INR" }}</p>
 <p>Currency(USD):{{ amount | currency : "USD" }}</p>
+
 <pre>{{ userdata | json }}</pre>
 <hr />
+<hr />
+<p>{{ MyFriendName | uppercase }}</p>
+<p>{{ MyFriendName | lowercase }}</p>
+<p>{{ MyFriendName | titlecase }}</p>
+<hr />
+<!--DATE-->
+<H4>{{ date | date }}</H4>
+<H4>{{ date | date : "fullDate" }}</H4>
+<H4>{{ date | date : "shortTime" }}</H4>
+<H4>{{ date | date : "shortDate" }}</H4>
+<H4>{{ date | date : "mediumDate" }}</H4>
+<H4>{{ date | date : "longDate" }}</H4>
+<H4>{{ date | date : "fullDate" }}</H4>
 
+<hr />
+<hr />
 <p>Custom Capitalize:{{ Customname | custompipe }}</p>
